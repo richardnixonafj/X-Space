@@ -3,4 +3,4 @@ from spacex.base import lancamentos
 
 
 def home(request):
-    return HttpResponse(lancamentos.get_proximo_lancamento())
+    return HttpResponse(lancamentos.get_ultimo_lancamento())
