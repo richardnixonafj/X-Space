@@ -13,6 +13,7 @@ codecov = "*"
 django = "*"
 requests = "*"
 gunicorn = "*"
+sentry-sdk = "==0.12.3"
 
 [requires]
 python_version = "3.7"
