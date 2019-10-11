@@ -1,46 +1,37 @@
 from spacex.base import lancamentos
 
 
-def get_launches():
-    got_launches, _ = lancamentos.get_launches()
-    return got_launches
-
-
-def get_past_launches():
-    got_launches, _ = lancamentos.get_past_launches()
-    return got_launches
-
-
-def get_latest_launch():
-    got_launch, _ = lancamentos.get_latest_launch()
+def x_proximo_lancamento():
+    got_launch, _ = lancamentos.get_proximo_lancamento()
     return got_launch
 
 
-def get_next_launch():
-    got_launch, _ = lancamentos.get_next_launch()
+def x_ultimo_lancamento():
+    got_launch, _ = lancamentos.get_ultimo_lancamento()
     return got_launch
 
 
-def get_upcoming_launches():
-    got_launches, _ = lancamentos.get_upcoming_launches()
+def x_proximos_lancamentos():
+    got_launches, _ = lancamentos.get_proximos_lancamentos()
     return got_launches
 
 
-def test_get_launches():
-    assert type(get_launches()) is list
+def x_lancamentos_passados():
+    got_launches, _ = lancamentos.get_lancamentos_passados()
+    return got_launches
 
 
-def test_get_past_launches():
-    assert type(get_past_launches()) is list
+def test_get_proximo_lancamento():
+    assert type(x_proximo_lancamento()) is dict
 
 
-def test_get_latest_launch():
-    assert type(get_latest_launch()) is dict
+def test_get_ultimo_lancamento():
+    assert type(x_ultimo_lancamento()) is dict
 
 
-def test_get_next_launch():
-    assert type(get_next_launch()) is dict
+def test_get_proximos_lancamentos():
+    assert type(x_proximos_lancamentos()) is list
 
 
-def test_get_upcoming_launches():
-    assert type(get_upcoming_launches()) is list
+def test_get_lancamentos_passados():
+    assert type(x_lancamentos_passados()) is list
