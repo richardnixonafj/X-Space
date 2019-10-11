@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from spacex.base.views import home
+from spacex.base.views import home, proxlanc, ultlanc, proxslancs, lancspas
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
+    path('proxlanc/', proxlanc),
+    path('ultlanc/', ultlanc),
+    path('proxslancs/', proxslancs),
+    path('lancspas/', lancspas),
 ]
