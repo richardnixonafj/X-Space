@@ -1,24 +1,30 @@
 from spacex.base import lancamentos
 
+
 def get_launches():
     got_launches, _ = lancamentos.get_launches()
     return got_launches
+
 
 def get_past_launches():
     got_launches, _ = lancamentos.get_past_launches()
     return got_launches
 
+
 def get_latest_launch():
     got_launch, _ = lancamentos.get_latest_launch()
     return got_launch
+
 
 def get_next_launch():
     got_launch, _ = lancamentos.get_next_launch()
     return got_launch
 
+
 def get_upcoming_launches():
     got_launches, _ = lancamentos.get_upcoming_launches()
     return got_launches
+
 
 def test_get_launches():
     assert type(get_launches()) is list
@@ -27,11 +33,14 @@ def test_get_launches():
 def test_get_past_launches():
     assert type(get_past_launches()) is list
 
+
 def test_get_latest_launch():
     assert type(get_latest_launch()) is dict
 
+
 def test_get_next_launch():
     assert type(get_next_launch()) is dict
+
 
 def test_get_upcoming_launches():
     assert type(get_upcoming_launches()) is list
