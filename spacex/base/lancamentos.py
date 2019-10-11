@@ -1,5 +1,6 @@
 from spacex.base.api import getx
 
+
 def get_proximo_lancamento():
     """
         Retorna informações do proximo lançamento
