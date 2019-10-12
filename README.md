@@ -64,7 +64,8 @@ Conforme Solicitado elaborei a API para consumir a  API SpaceX, e Criei Template
 * Próximos Lançamentos
 * Lançamentos Passados
 
+A exibição não ficou formatada, dei prioridade a outros aspectos.
+
 Nunca tive nenhuma experiência com React antes, porem tentei chegar o mais proximo do que foi pedido, deixei os arquivos do react em uma branch separada `react` (não consegui concluir o frontend).
 
 Realizei varios testes unitários, inclusive com deploy no heroku, conforme o link do inicio do read-me.
-
