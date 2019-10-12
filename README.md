@@ -57,4 +57,14 @@ E o processo de Build com o Deploy integrado entre o github e Heroku (Build, rel
 
 ##### Comentários do candidato:
 
-* adicionado time-out na conexao da aplicacao api
+Conforme Solicitado elaborei a API para consumir a  API SpaceX, e Criei Template Rotes para acessar as informações solicitadas:
+
+* Próximo Lançamento
+* Último Lançamento
+* Próximos Lançamentos
+* Lançamentos Passados
+
+Nunca tive nenhuma experiência com React antes, porem tentei chegar o mais proximo do que foi pedido, deixei os arquivos do react em uma branch separada `react` (não consegui concluir o frontend).
+
+Realizei varios testes unitários, inclusive com deploy no heroku, conforme o link do inicio do read-me.
+
