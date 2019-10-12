@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 from spacex.base.views import home, proxlanc, ultlanc, proxslancs, lancspas
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +25,5 @@ urlpatterns = [
     path('ultlanc/', ultlanc),
     path('proxslancs/', proxslancs),
     path('lancspas/', lancspas),
+    path('', TemplateView.as_view(template_name='front-end/index.html')),
 ]
