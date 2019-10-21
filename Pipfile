@@ -1,19 +1,26 @@
 [[source]]
+
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+
 [dev-packages]
+
 flake8 = "*"
 pytest-django = "*"
 pytest-cov = "*"
 codecov = "*"
 
+
 [packages]
+
 django = "*"
 requests = "*"
 gunicorn = "*"
-sentry-sdk = "==0.12.3"
+sentry-sdk = "==0.13.0"
+
 
 [requires]
+
 python_version = "3.7"
