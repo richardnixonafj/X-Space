@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1c21a62aea8eb8298eb26157d233e23cdc01f89abb308c66b1edca5657e41af3"
+            "sha256": "da2e27e17ae49468e9d97574073b2406e536a5bac76dbbfccece785a6b414c44"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,16 +32,18 @@
         },
         "django": {
             "hashes": [
-                "sha256:16040e1288c6c9f68c6da2fe75ebde83c0a158f6f5d54f4c5177b0c1478c5b86",
-                "sha256:89c2007ca4fa5b351a51a279eccff298520783b713bf28efb89dfb81c80ea49b"
+                "sha256:a4ad4f6f9c6a4b7af7e2deec8d0cbff28501852e5010d6c2dc695d3d1fae7ca0",
+                "sha256:fa98ec9cc9bf5d72a08ebf3654a9452e761fbb8566e3f80de199cbc15477e891"
             ],
-            "version": "==2.2.7"
+            "index": "pypi",
+            "version": "==2.2.8"
         },
         "gunicorn": {
             "hashes": [
                 "sha256:1904bb2b8a43658807108d59c3f3d56c2b6121a701161de0ddf9ad140073c626",
                 "sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c"
             ],
+            "index": "pypi",
             "version": "==20.0.4"
         },
         "idna": {
@@ -71,6 +73,7 @@
                 "sha256:05285942901d38c7ce2498aba50d8e87b361fc603281a5902dda98f3f8c5e145",
                 "sha256:c6b919623e488134a728f16326c6f0bcdab7e3f59e7f4c472a90eea4d6d8fe82"
             ],
+            "index": "pypi",
             "version": "==0.13.5"
         },
         "sqlparse": {
@@ -89,13 +92,6 @@
         }
     },
     "develop": {
-        "atomicwrites": {
-            "hashes": [
-                "sha256:03472c30eb2c5d1ba9227e4c2ca66ab8287fbfbbda3888aa93dc2e28fc6811b4",
-                "sha256:75a9445bac02d8d058d5e1fe689654ba5a6556a1dfd8ce6ec55a0ed79866cfa6"
-            ],
-            "version": "==1.3.0"
-        },
         "attrs": {
             "hashes": [
                 "sha256:08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c",
@@ -173,6 +169,7 @@
                 "sha256:45681a117ecc81e870cbf1262835ae4af5e7a8b08e40b944a8a6e6b895914cfb",
                 "sha256:49356e766643ad15072a789a20915d3c91dc89fd313ccd71802303fd67e4deca"
             ],
+            "index": "pypi",
             "version": "==3.7.9"
         },
         "idna": {
@@ -265,6 +262,7 @@
                 "sha256:17592f06d51c2ef4b7a0fb24aa32c8b6998506a03c8439606cb96db160106659",
                 "sha256:ef3d15b35ed7e46293475e6f282e71a53bcd8c6f87bdc5d5e7ad0f4d49352127"
             ],
+            "index": "pypi",
             "version": "==3.7.0"
         },
         "requests": {
