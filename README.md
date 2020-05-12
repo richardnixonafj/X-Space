@@ -25,3 +25,5 @@ Aplicação disponível em: https://desafiozapay.herokuapp.com/
     * http://127.0.0.1:8000/ultlanc/ (ultimo lançamento)
     * http://127.0.0.1:8000/proxslancs/ (proximos lançamentos)
     * http://127.0.0.1:8000/lancspas/ (lançamentos passados)
+    
+[ ~ Dependencies scanned by PyUp.io ~ ]
